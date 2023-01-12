@@ -1,0 +1,15 @@
+{
+   "type": "forge:ore_shapeless",
+   "ingredients": [
+     {
+       "item": "immersivefood:raw_squid_meat"
+     },
+     {
+       "item": "minecraft:flint"
+     }
+  ],
+   "result": {
+    "item": "immersivefood:filled_squid_meat"
+  }
+ 
+ }

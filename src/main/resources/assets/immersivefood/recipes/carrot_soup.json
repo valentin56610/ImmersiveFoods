@@ -1,0 +1,15 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [ "XXX" , "XXX", " h "],
+  "key":{
+    "h": {
+      "item": "minecraft:bowl"
+    },
+    "X":{
+      "item":"minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "immersivefood:carrot_soup"
+  }
+}

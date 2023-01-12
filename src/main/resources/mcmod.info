@@ -1,0 +1,16 @@
+[
+{
+  "modid": "immersivefood",
+  "name": "ImmersiveFood",
+  "description": "A mod that adds some food that doesn't seem out of place",
+  "version": "1.0.0",
+  "mcversion": "1.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["hedgehogpie12"],
+  "credits": "The Forge and FML guys, for making Forge and FMl",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
