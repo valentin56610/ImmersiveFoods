@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "immersivefoods:raw_llama_meat"
+  },
+  "result": "immersivefoods:cooked_llama_meat",
+  "experience": 1.0,
+  "cookingtime": 100
+}

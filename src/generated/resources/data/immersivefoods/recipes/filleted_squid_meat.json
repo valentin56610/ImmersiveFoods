@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "immersivefoods",
+  "ingredients": [
+    {
+      "item": "immersivefoods:raw_squid_meat"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "immersivefoods:filleted_squid_meat"
+  }
+}

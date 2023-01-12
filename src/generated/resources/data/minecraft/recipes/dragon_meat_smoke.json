@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "immersivefoods:raw_dragon_meat"
+  },
+  "result": "immersivefoods:cooked_dragon_meat",
+  "experience": 100.0,
+  "cookingtime": 200
+}

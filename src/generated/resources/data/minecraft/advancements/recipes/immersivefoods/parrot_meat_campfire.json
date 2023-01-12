@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:parrot_meat_campfire"
+    ]
+  },
+  "criteria": {
+    "has_parrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_parrot_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:parrot_meat_campfire"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_parrot",
+      "has_the_recipe"
+    ]
+  ]
+}

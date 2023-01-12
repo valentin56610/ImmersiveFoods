@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersivefoods:raw_donkey_meat"
+  },
+  "result": "immersivefoods:cooked_donkey_meat",
+  "experience": 1.0,
+  "cookingtime": 200
+}

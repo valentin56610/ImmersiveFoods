@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "immersivefoods:raw_wolf_meat"
+  },
+  "result": "immersivefoods:cooked_wolf_meat",
+  "experience": 1.0,
+  "cookingtime": 100
+}

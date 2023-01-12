@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersivefoods:raw_ocelot_meat"
+  },
+  "result": "immersivefoods:cooked_ocelot_meat",
+  "experience": 1.0,
+  "cookingtime": 200
+}

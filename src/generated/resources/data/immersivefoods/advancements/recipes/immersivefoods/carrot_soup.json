@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "immersivefoods:carrot_soup"
+    ]
+  },
+  "criteria": {
+    "carrot_soup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "immersivefoods:carrot_soup"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "carrot_soup",
+      "has_the_recipe"
+    ]
+  ]
+}

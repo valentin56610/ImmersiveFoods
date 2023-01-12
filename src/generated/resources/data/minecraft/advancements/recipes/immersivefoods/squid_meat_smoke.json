@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:squid_meat_smoke"
+    ]
+  },
+  "criteria": {
+    "has_squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:filleted_squid_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:squid_meat_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_squid",
+      "has_the_recipe"
+    ]
+  ]
+}

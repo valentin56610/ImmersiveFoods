@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersivefoods:raw_mule_meat"
+  },
+  "result": "immersivefoods:cooked_mule_meat",
+  "experience": 1.0,
+  "cookingtime": 200
+}

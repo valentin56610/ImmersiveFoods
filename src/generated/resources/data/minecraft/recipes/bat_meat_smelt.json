@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersivefoods:raw_bat_meat"
+  },
+  "result": "immersivefoods:cooked_bat_meat",
+  "experience": 1.0,
+  "cookingtime": 200
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersivefoods:raw_parrot_meat"
+  },
+  "result": "immersivefoods:cooked_parrot_meat",
+  "experience": 50.0,
+  "cookingtime": 400
+}

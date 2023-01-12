@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:wolf_meat_smoke"
+    ]
+  },
+  "criteria": {
+    "has_wolf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_wolf_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:wolf_meat_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wolf",
+      "has_the_recipe"
+    ]
+  ]
+}

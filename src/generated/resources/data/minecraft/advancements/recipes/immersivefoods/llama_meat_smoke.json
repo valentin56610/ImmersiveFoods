@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:llama_meat_smoke"
+    ]
+  },
+  "criteria": {
+    "has_llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_llama_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:llama_meat_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_llama",
+      "has_the_recipe"
+    ]
+  ]
+}

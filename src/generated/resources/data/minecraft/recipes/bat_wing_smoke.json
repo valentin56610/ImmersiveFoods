@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "immersivefoods:bat_wing"
+  },
+  "result": "immersivefoods:cooked_bat_wing",
+  "experience": 1.0,
+  "cookingtime": 100
+}

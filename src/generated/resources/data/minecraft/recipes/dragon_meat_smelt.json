@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersivefoods:raw_dragon_meat"
+  },
+  "result": "immersivefoods:cooked_dragon_meat",
+  "experience": 50.0,
+  "cookingtime": 400
+}

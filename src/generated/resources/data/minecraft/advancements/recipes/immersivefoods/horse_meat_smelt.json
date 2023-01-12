@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:horse_meat_smelt"
+    ]
+  },
+  "criteria": {
+    "has_horse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_horse_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:horse_meat_smelt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_horse",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:bat_wing_smoke"
+    ]
+  },
+  "criteria": {
+    "has_bat_wing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:bat_wing"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:bat_wing_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bat_wing",
+      "has_the_recipe"
+    ]
+  ]
+}

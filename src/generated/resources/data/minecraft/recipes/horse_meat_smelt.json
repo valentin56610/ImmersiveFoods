@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "immersivefoods:raw_horse_meat"
+  },
+  "result": "immersivefoods:cooked_horse_meat",
+  "experience": 1.0,
+  "cookingtime": 200
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:mule_meat_smelt"
+    ]
+  },
+  "criteria": {
+    "has_mule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_mule_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mule_meat_smelt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mule",
+      "has_the_recipe"
+    ]
+  ]
+}

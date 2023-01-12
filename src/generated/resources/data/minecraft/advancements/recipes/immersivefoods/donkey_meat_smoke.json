@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:donkey_meat_smoke"
+    ]
+  },
+  "criteria": {
+    "has_donkey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_donkey_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:donkey_meat_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_donkey",
+      "has_the_recipe"
+    ]
+  ]
+}
