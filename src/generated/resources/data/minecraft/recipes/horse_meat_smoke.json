@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smoking",
+  "group": "immersivefoods",
   "ingredient": {
     "item": "immersivefoods:raw_horse_meat"
   },

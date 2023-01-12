@@ -1,5 +1,6 @@
 {
   "type": "minecraft:campfire_cooking",
+  "group": "immersivefoods",
   "ingredient": {
     "item": "immersivefoods:raw_wolf_meat"
   },

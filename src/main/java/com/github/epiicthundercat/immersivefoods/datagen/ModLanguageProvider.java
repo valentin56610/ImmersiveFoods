@@ -33,7 +33,7 @@ public class ModLanguageProvider extends LanguageProvider {
         add(Registration.COOKED_HORSE_MEAT.get(), "Cooked Horse Meat");
         add(Registration.CARROT_SOUP.get(), "Carrot Soup");
         add(Registration.POTATO_SOUP.get(), "Potato Soup");
-        add(Registration.COOKED_LLAMA_MEAT.get(), "Cooked LLama Meat");
+        add(Registration.COOKED_LLAMA_MEAT.get(), "Cooked Llama Meat");
 
         add(Registration.RAW_LLAMA_MEAT.get(), "Raw Llama Meat");
         add(Registration.RAW_DONKEY_MEAT.get(), "Raw Donkey Meat");

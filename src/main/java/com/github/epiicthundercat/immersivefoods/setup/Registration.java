@@ -4,6 +4,7 @@ import com.github.epiicthundercat.immersivefoods.Reference;
 import com.github.epiicthundercat.immersivefoods.common.FoodValues;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -37,8 +38,8 @@ public class Registration {
     //Food Items
     public static final RegistryObject<Item> RAW_HORSE_MEAT = ITEMS.register("raw_horse_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.RAW_HORSE_FOOD)));
     public static final RegistryObject<Item> COOKED_HORSE_MEAT = ITEMS.register("cooked_horse_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.COOKED_HORSE_FOOD)));
-    public static final RegistryObject<Item> CARROT_SOUP = ITEMS.register("carrot_soup", () -> new Item(ITEM_PROPERTIES.food(FoodValues.CARROT_SOUP_FOOD)));
-    public static final RegistryObject<Item> POTATO_SOUP = ITEMS.register("potato_soup", () -> new Item(ITEM_PROPERTIES.food(FoodValues.POTATO_SOUP_FOOD)));
+    public static final RegistryObject<Item> CARROT_SOUP = ITEMS.register("carrot_soup", () -> new BowlFoodItem(ITEM_PROPERTIES.stacksTo(1).food(FoodValues.CARROT_SOUP_FOOD)));
+    public static final RegistryObject<Item> POTATO_SOUP = ITEMS.register("potato_soup", () -> new BowlFoodItem(ITEM_PROPERTIES.stacksTo(1).food(FoodValues.POTATO_SOUP_FOOD)));
     public static final RegistryObject<Item> COOKED_LLAMA_MEAT = ITEMS.register("cooked_llama_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.COOKED_LLAMA_FOOD)));
     public static final RegistryObject<Item> RAW_LLAMA_MEAT = ITEMS.register("raw_llama_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.RAW_LLAMA_FOOD)));
     public static final RegistryObject<Item> RAW_DONKEY_MEAT = ITEMS.register("raw_donkey_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.RAW_DONKEY_FOOD)));

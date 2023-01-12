@@ -34,10 +34,7 @@ public class ModSetup {
     }
 
     public static void init(FMLCommonSetupEvent event) {
-//        event.enqueueWork(() -> {
-//            Ores.registerConfiguredFeatures();
-//            Dimensions.register();
-//        });
+
         FoodMessages.register();
 
     }
