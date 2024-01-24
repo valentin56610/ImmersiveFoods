@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "immersivefoods",
+  "ingredient": {
+    "item": "immersivefoods:raw_dolphin_meat"
+  },
+  "result": "immersivefoods:cooked_dolphin_meat",
+  "experience": 1.0,
+  "cookingtime": 200
+}

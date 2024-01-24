@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/bat"
+    }
+  ],
+  "addition": "immersivefoods:raw_bat_meat",
+  "type": "immersivefoods:raw_bat_meat_from_bat"
+}

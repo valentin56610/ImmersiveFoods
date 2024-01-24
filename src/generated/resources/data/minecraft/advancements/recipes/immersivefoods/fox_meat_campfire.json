@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:fox_meat_campfire"
+    ]
+  },
+  "criteria": {
+    "has_raw_fox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_fox_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:fox_meat_campfire"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_fox",
+      "has_the_recipe"
+    ]
+  ]
+}

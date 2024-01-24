@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "group": "immersivefoods",
+  "ingredient": {
+    "item": "immersivefoods:dead_bee"
+  },
+  "result": "immersivefoods:toasted_bee",
+  "experience": 1.0,
+  "cookingtime": 100
+}

@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/ocelot"
+    }
+  ],
+  "addition": "immersivefoods:raw_ocelot_meat",
+  "type": "immersivefoods:raw_ocelot_meat_from_ocelot"
+}

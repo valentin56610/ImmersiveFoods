@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_donkey": {
+    "has_raw_donkey": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_donkey",
+      "has_raw_donkey",
       "has_the_recipe"
     ]
   ]

@@ -29,14 +29,16 @@ displayName="Immersive Foods" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="immersivefoods.png" #optional
 # A text field displayed in the mod UI
-credits="hedgehogpie port - permission granted" #optional
+credits="An Old Port, from HedgeHogPie, Completely rewrote the mod now." #optional
 # A text field displayed in the mod UI
-authors="HedgeHogPie, Epiic_Thundercat" #optional
+authors=", Epiic_Thundercat, Legacy: HedgeHogPie" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 Adds a Variety of Food Types to the game to spice up what you can eat!
 
 It is meant to be simple and not intrusive to the minecraft gameplay
+
+Now includes the most up to date creatures 1.18.2 and up!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.immersivefoods]] #optional

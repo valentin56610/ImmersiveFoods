@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/panda"
+    }
+  ],
+  "addition": "immersivefoods:raw_panda_meat",
+  "type": "immersivefoods:raw_panda_meat_from_panda"
+}

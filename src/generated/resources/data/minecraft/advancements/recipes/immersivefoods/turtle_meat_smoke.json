@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:turtle_meat_smoke"
+    ]
+  },
+  "criteria": {
+    "has_raw_turtle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_turtle_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:turtle_meat_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_turtle",
+      "has_the_recipe"
+    ]
+  ]
+}

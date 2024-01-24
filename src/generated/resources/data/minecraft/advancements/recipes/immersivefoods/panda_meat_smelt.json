@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:panda_meat_smelt"
+    ]
+  },
+  "criteria": {
+    "has_raw_panda": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_panda_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:panda_meat_smelt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_panda",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -105,9 +105,69 @@ public class ModItemModels extends ItemModelProvider {
         singleTexture(Registration.FILLETED_SQUID_MEAT.get().getRegistryName().getPath(),
                 mcLoc("item/generated"),
                 "layer0", new ResourceLocation(Reference.MODID, "items/filleted_squid_meat"));
-
-
-
+//Fox
+        singleTexture(Registration.RAW_FOX_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_fox_meat"));
+        singleTexture(Registration.COOKED_FOX_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_fox_meat"));
+//Polar Bear
+        singleTexture(Registration.RAW_POLAR_BEAR_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_polar_bear_meat"));
+        singleTexture(Registration.COOKED_POLAR_BEAR_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_polar_bear_meat"));
+//Bee
+        singleTexture(Registration.DEAD_BEE.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/dead_bee"));
+        singleTexture(Registration.TOASTED_BEE.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/toasted_bee"));
+//Goat
+        singleTexture(Registration.RAW_GOAT_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_goat_meat"));
+        singleTexture(Registration.COOKED_GOAT_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_goat_meat"));
+//Axolotl
+        singleTexture(Registration.RAW_AXOLOTL_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_axolotl_meat"));
+        singleTexture(Registration.COOKED_AXOLOTL_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_axolotl_meat"));
+        //Cat
+        singleTexture(Registration.RAW_CAT_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_cat_meat"));
+        singleTexture(Registration.COOKED_CAT_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_cat_meat"));
+        //Turtle
+        singleTexture(Registration.RAW_TURTLE_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_turtle_meat"));
+        singleTexture(Registration.COOKED_TURTLE_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_turtle_meat"));
+        //Panda
+        singleTexture(Registration.RAW_PANDA_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_panda_meat"));
+        singleTexture(Registration.COOKED_PANDA_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_panda_meat"));
+        //Panda
+        singleTexture(Registration.RAW_DOLPHIN_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/raw_dolphin_meat"));
+        singleTexture(Registration.COOKED_DOLPHIN_MEAT.get().getRegistryName().getPath(),
+                mcLoc("item/generated"),
+                "layer0", new ResourceLocation(Reference.MODID, "items/cooked_dolphin_meat"));
 
     }
 

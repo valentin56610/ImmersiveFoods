@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/dolphin"
+    }
+  ],
+  "addition": "immersivefoods:raw_dolphin_meat",
+  "type": "immersivefoods:raw_dolphin_meat_from_dolphin"
+}
