@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "immersivefoods",
+  "ingredient": {
+    "item": "immersivefoods:raw_fox_meat"
+  },
+  "result": "immersivefoods:cooked_fox_meat",
+  "experience": 1.0,
+  "cookingtime": 600
+}

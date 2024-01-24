@@ -1,7 +1,6 @@
 package com.github.epiicthundercat.immersivefoods;
 
-import com.github.epiicthundercat.immersivefoods.setup.EventHandler;
-import com.github.epiicthundercat.immersivefoods.setup.FoodConfig;
+import com.github.epiicthundercat.immersivefoods.setup.ModConfigSetup;
 import com.github.epiicthundercat.immersivefoods.setup.ModSetup;
 import com.github.epiicthundercat.immersivefoods.setup.Registration;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,11 +18,12 @@ public class Food {
 
         Registration.init();
         ModSetup.setup();
-        FoodConfig.register();
+        ModConfigSetup.register();
 
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
         modbus.addListener(ModSetup::init);
-        EventHandler.registerEvents();
+
+
     }
 
 

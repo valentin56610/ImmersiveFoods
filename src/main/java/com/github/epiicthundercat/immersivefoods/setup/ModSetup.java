@@ -2,11 +2,6 @@ package com.github.epiicthundercat.immersivefoods.setup;
 
 
 import com.github.epiicthundercat.immersivefoods.Reference;
-import com.github.epiicthundercat.immersivefoods.datagen.ModLootTables;
-import com.google.common.collect.Multimap;
-import com.google.common.collect.MultimapBuilder;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -22,14 +17,12 @@ public class ModSetup {
     public static final CreativeModeTab ITEM_GROUP = new CreativeModeTab(TAB_NAME) {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Registration.COOKED_PARROT_MEAT.get());
+            return new ItemStack(Registration.TOASTED_BEE.get());
         }
     };
 
     public static void setup() {
         IEventBus bus = MinecraftForge.EVENT_BUS;
-//        bus.addListener(Ores::onBiomeLoadingEvent);
-//        bus.addGenericListener(Entity.class, ManaEvents::onAttachCapabilitiesPlayer);
 
     }
 
@@ -38,10 +31,4 @@ public class ModSetup {
         FoodMessages.register();
 
     }
-
-//    @SubscribeEvent
-//    public static void onAttributeCreate(EntityAttributeCreationEvent event) {
-//        event.put(Registration.THIEF.get(), ThiefEntity.prepareAttributes().build());
-//    }
-
 }

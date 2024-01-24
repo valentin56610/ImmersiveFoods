@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/fox"
+    }
+  ],
+  "addition": "immersivefoods:raw_fox_meat",
+  "type": "immersivefoods:raw_fox_meat_from_fox"
+}

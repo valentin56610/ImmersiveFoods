@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_horse": {
+    "has_raw_horse": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_horse",
+      "has_raw_horse",
       "has_the_recipe"
     ]
   ]

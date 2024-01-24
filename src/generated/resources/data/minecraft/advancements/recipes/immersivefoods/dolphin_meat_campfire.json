@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:dolphin_meat_campfire"
+    ]
+  },
+  "criteria": {
+    "has_raw_dolphin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_dolphin_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:dolphin_meat_campfire"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_dolphin",
+      "has_the_recipe"
+    ]
+  ]
+}

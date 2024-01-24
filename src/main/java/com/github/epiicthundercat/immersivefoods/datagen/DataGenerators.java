@@ -16,7 +16,7 @@ public class DataGenerators {
 
         DataGenerator generator = event.getGenerator();
         if (event.includeServer()) {
-            generator.addProvider(new ModRecipes(generator));
+            generator.addProvider(new ModRecipeProvider(generator));
 
         }
         if (event.includeClient()) {

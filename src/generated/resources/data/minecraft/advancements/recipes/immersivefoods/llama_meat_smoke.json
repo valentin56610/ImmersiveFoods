@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_llama": {
+    "has_raw_llama": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_llama",
+      "has_raw_llama",
       "has_the_recipe"
     ]
   ]

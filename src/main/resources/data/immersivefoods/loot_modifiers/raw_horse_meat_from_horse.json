@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/horse"
+    }
+  ],
+  "addition": "immersivefoods:raw_horse_meat",
+  "type": "immersivefoods:raw_horse_meat_from_horse"
+}

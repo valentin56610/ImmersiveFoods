@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/mule"
+    }
+  ],
+  "addition": "immersivefoods:raw_mule_meat",
+  "type": "immersivefoods:raw_mule_meat_from_mule"
+}

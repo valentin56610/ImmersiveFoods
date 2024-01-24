@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_parrot": {
+    "has_raw_parrot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -27,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_parrot",
+      "has_raw_parrot",
       "has_the_recipe"
     ]
   ]

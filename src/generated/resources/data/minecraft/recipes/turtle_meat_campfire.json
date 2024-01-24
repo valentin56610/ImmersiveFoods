@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "immersivefoods",
+  "ingredient": {
+    "item": "immersivefoods:raw_turtle_meat"
+  },
+  "result": "immersivefoods:cooked_turtle_meat",
+  "experience": 1.0,
+  "cookingtime": 600
+}

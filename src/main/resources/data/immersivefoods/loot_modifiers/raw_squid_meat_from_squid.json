@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/squid"
+    }
+  ],
+  "addition": "immersivefoods:raw_squid_meat",
+  "type": "immersivefoods:raw_squid_meat_from_squid"
+}

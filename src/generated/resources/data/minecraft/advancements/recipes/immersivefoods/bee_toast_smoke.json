@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:bee_toast_smoke"
+    ]
+  },
+  "criteria": {
+    "has_dead_bee": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:dead_bee"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:bee_toast_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dead_bee",
+      "has_the_recipe"
+    ]
+  ]
+}

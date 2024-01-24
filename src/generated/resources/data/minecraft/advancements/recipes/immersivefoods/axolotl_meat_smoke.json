@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:axolotl_meat_smoke"
+    ]
+  },
+  "criteria": {
+    "has_raw_axolotl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "immersivefoods:raw_axolotl_meat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:axolotl_meat_smoke"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_axolotl",
+      "has_the_recipe"
+    ]
+  ]
+}

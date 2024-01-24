@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/ender_dragon"
+    }
+  ],
+  "addition": "immersivefoods:raw_dragon_meat",
+  "type": "immersivefoods:raw_dragon_meat_from_dragon"
+}

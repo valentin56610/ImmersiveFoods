@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/bee"
+    }
+  ],
+  "addition": "immersivefoods:dead_bee",
+  "type": "immersivefoods:dead_bee_from_bee"
+}

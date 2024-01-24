@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "entries": [
+    "immersivefoods:raw_wolf_meat_from_wolf",
+    "immersivefoods:raw_squid_meat_from_squid",
+    "immersivefoods:raw_llama_meat_from_llama",
+    "immersivefoods:raw_bat_meat_from_bat",
+    "immersivefoods:bat_wing_from_bat",
+    "immersivefoods:raw_dragon_meat_from_dragon",
+    "immersivefoods:raw_parrot_meat_from_parrot",
+    "immersivefoods:raw_ocelot_meat_from_ocelot",
+    "immersivefoods:raw_donkey_meat_from_donkey",
+    "immersivefoods:raw_mule_meat_from_mule",
+    "immersivefoods:raw_horse_meat_from_horse",
+    "immersivefoods:raw_polar_bear_meat_from_polar_bear",
+    "immersivefoods:dead_bee_from_bee",
+    "immersivefoods:raw_axolotl_meat_from_axolotl",
+    "immersivefoods:raw_goat_meat_from_goat",
+    "immersivefoods:raw_cat_meat_from_cat",
+    "immersivefoods:raw_dolphin_meat_from_dolphin",
+    "immersivefoods:raw_turtle_meat_from_turtle",
+    "immersivefoods:raw_panda_meat_from_panda",
+    "immersivefoods:raw_trader_llama_from_trader_llama",
+    "immersivefoods:raw_fox_meat_from_fox"
+  ]
+}
