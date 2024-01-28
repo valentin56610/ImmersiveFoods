@@ -1,10 +1,10 @@
-// 1.19.3	2024-01-28T06:06:14.8409498	Recipes
+// 1.19.4	2024-01-28T08:17:28.4868421	Recipes
 c288ad1edae1bdb6cebfd71428cb249df3006a77 data/immersivefoods/advancements/recipes/food/carrot_soup.json
 583829ac6616e0574d548d51f6442f6bfd09aae7 data/immersivefoods/advancements/recipes/food/potato_soup.json
 fbcfff4d3c5847dd7dad9ceb32453742ff3858a2 data/immersivefoods/advancements/recipes/misc/filleted_squid_meat.json
-3c3e532e628249e62a1bb7685950303ed5fb3aa0 data/immersivefoods/recipes/carrot_soup.json
+059036703092a70d2b81f64ea1f1ad1bb636569e data/immersivefoods/recipes/carrot_soup.json
 eb89578576a1893fb2ef9a69538f5a17192e96b7 data/immersivefoods/recipes/filleted_squid_meat.json
-fd98d3e3358d9ec660e463578d29c13eb1961ce4 data/immersivefoods/recipes/potato_soup.json
+115da346e34b509e3024d313b537091d4d1fbeac data/immersivefoods/recipes/potato_soup.json
 0079b48d924ac8c631dba96cac73dc94351a37a3 data/minecraft/advancements/recipes/food/axolotl_meat_campfire.json
 efbd148abe2a1a5644488f43a1c32cd623e06d46 data/minecraft/advancements/recipes/food/axolotl_meat_smelt.json
 8023e1dbd980a90c2cf7b13c996487f5c494ae2b data/minecraft/advancements/recipes/food/axolotl_meat_smoke.json
