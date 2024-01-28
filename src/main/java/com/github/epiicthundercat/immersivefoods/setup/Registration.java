@@ -106,15 +106,18 @@ public class Registration {
     public static final RegistryObject<Item> COOKED_FROG_LEGS = ITEMS.register("cooked_frog_leg", () -> new Item(ITEM_PROPERTIES.food(FoodValues.COOKED_SQUID_FOOD)));
 
 
-    //21 Animals/Food Cats. as of 1.19.3
+    //23 Animals/Food Cats. as of 1.20.1
 
+    //Camel
+    public static final RegistryObject<Item> RAW_CAMEL_MEAT = ITEMS.register("raw_camel_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.RAW_HORSE_FOOD)));
+    public static final RegistryObject<Item> COOKED_CAMEL_MEAT = ITEMS.register("cooked_camel_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.COOKED_HORSE_FOOD)));
 
-    public static void init() {
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+    //Sniffer
+    public static final RegistryObject<Item> RAW_SNIFFER_MEAT = ITEMS.register("raw_sniffer_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.RAW_HORSE_FOOD)));
+    public static final RegistryObject<Item> COOKED_SNIFFER_MEAT = ITEMS.register("cooked_sniffer_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.COOKED_HORSE_FOOD)));
 
-        ITEMS.register(bus);
-
-
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
     }
 
 

@@ -103,13 +103,21 @@ public class ModItemModels extends ItemModelProvider {
         simpleItem(Registration.RAW_PANDA_MEAT);
         simpleItem(Registration.COOKED_PANDA_MEAT);
 
-        //Panda
+        //Dolphin
         simpleItem(Registration.RAW_DOLPHIN_MEAT);
         simpleItem(Registration.COOKED_DOLPHIN_MEAT);
 
-        //Panda
+        //Frog
         simpleItem(Registration.RAW_FROG_LEGS);
         simpleItem(Registration.COOKED_FROG_LEGS);
+
+        //Sniffer
+        simpleItem(Registration.RAW_SNIFFER_MEAT);
+        simpleItem(Registration.COOKED_SNIFFER_MEAT);
+
+        //Camel
+        simpleItem(Registration.RAW_CAMEL_MEAT);
+        simpleItem(Registration.COOKED_CAMEL_MEAT);
 
     }
 

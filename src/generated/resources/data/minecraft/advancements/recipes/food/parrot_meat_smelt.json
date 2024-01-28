@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:parrot_meat_smelt"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

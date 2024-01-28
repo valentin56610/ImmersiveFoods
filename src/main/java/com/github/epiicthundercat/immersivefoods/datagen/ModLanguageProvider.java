@@ -16,7 +16,7 @@ public class ModLanguageProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
 
-        add("itemGroup." + TAB_NAME, "Immersive Foods");
+        add("creativetab.immersivefoods_tab", "Immersive Foods");
 
 //Horse
         add(Registration.RAW_HORSE_MEAT.get(), "Raw Horse");
@@ -84,6 +84,14 @@ public class ModLanguageProvider extends LanguageProvider {
 //Frog
         add(Registration.RAW_FROG_LEGS.get(), "Frog Leg");
         add(Registration.COOKED_FROG_LEGS.get(), "Cooked Frog Leg");
+
+//Camel
+        add(Registration.RAW_CAMEL_MEAT.get(), "Raw Camel");
+        add(Registration.COOKED_CAMEL_MEAT.get(), "Cooked Camel");
+
+//Sniffer
+        add(Registration.RAW_SNIFFER_MEAT.get(), "Raw Sniffer");
+        add(Registration.COOKED_SNIFFER_MEAT.get(), "Cooked Sniffer");
 
     }
 }

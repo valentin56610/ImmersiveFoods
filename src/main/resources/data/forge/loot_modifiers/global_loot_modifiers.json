@@ -20,6 +20,10 @@
     "immersivefoods:raw_dolphin_meat_from_dolphin",
     "immersivefoods:raw_turtle_meat_from_turtle",
     "immersivefoods:raw_panda_meat_from_panda",
+    "immersivefoods:raw_camel_meat_from_camel",
+    "immersivefoods:raw_sniffer_meat_from_sniffer",
+    "immersivefoods:leather_from_camel",
+    "immersivefoods:leather_from_sniffer",
     "immersivefoods:raw_trader_llama_from_trader_llama",
     "immersivefoods:frog_leg_from_frog",
     "immersivefoods:raw_fox_meat_from_fox"

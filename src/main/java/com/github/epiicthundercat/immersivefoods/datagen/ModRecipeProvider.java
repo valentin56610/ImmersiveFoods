@@ -383,6 +383,38 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_frog_legs", has(Registration.RAW_FROG_LEGS.get()))
                 .save(consumer, "frog_leg_smoke");
 
+        //Camel
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.RAW_CAMEL_MEAT.get()), RecipeCategory.FOOD, Registration.COOKED_CAMEL_MEAT.get(), 1.0f, 200)
+                .group("immersivefoods")
+                .unlockedBy("has_raw_camel", has(Registration.RAW_CAMEL_MEAT.get()))
+                .save(consumer, "camel_smelt");
+
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(Registration.RAW_CAMEL_MEAT.get()), RecipeCategory.FOOD, Registration.COOKED_CAMEL_MEAT.get(), 1.0f, 600)
+                .group("immersivefoods")
+                .unlockedBy("has_raw_camel", has(Registration.RAW_CAMEL_MEAT.get()))
+                .save(consumer, "camel_campfire");
+
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(Registration.RAW_CAMEL_MEAT.get()), RecipeCategory.FOOD, Registration.COOKED_CAMEL_MEAT.get(), 1.0f, 100)
+                .group("immersivefoods")
+                .unlockedBy("has_raw_camel", has(Registration.RAW_CAMEL_MEAT.get()))
+                .save(consumer, "camel_smoke");
+
+        //Sniffer
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.RAW_SNIFFER_MEAT.get()), RecipeCategory.FOOD, Registration.COOKED_SNIFFER_MEAT.get(), 1.0f, 200)
+                .group("immersivefoods")
+                .unlockedBy("has_raw_sniffer", has(Registration.RAW_SNIFFER_MEAT.get()))
+                .save(consumer, "sniffer_smelt");
+
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(Registration.RAW_SNIFFER_MEAT.get()), RecipeCategory.FOOD, Registration.COOKED_SNIFFER_MEAT.get(), 1.0f, 600)
+                .group("immersivefoods")
+                .unlockedBy("has_raw_sniffer", has(Registration.RAW_SNIFFER_MEAT.get()))
+                .save(consumer, "sniffer_campfire");
+
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(Registration.RAW_SNIFFER_MEAT.get()), RecipeCategory.FOOD, Registration.COOKED_SNIFFER_MEAT.get(), 1.0f, 100)
+                .group("immersivefoods")
+                .unlockedBy("has_raw_sniffer", has(Registration.RAW_SNIFFER_MEAT.get()))
+                .save(consumer, "sniffer_smoke");
+
     }
 
 

@@ -30,5 +30,6 @@
     "recipes": [
       "immersivefoods:filleted_squid_meat"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }
