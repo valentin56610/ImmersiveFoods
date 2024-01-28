@@ -2,6 +2,7 @@ package com.github.epiicthundercat.immersivefoods.datagen;
 
 import com.github.epiicthundercat.immersivefoods.Reference;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -13,19 +14,15 @@ public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
 
-
         DataGenerator generator = event.getGenerator();
-        if (event.includeServer()) {
-            generator.addProvider(true, new ModRecipeProvider(generator));
+        PackOutput packOutput = generator.getPackOutput();
 
-        }
-        if (event.includeClient()) {
-
-            generator.addProvider(true, new ModItemModels(generator, event.getExistingFileHelper()));
-            generator.addProvider(true, new ModLanguageProvider(generator, "en_us"));
+        generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput));
 
 
-        }
+        generator.addProvider(event.includeClient(), new ModItemModels(packOutput, event.getExistingFileHelper()));
+        generator.addProvider(event.includeClient(), new ModLanguageProvider(packOutput, "en_us"));
+
 
 
     }

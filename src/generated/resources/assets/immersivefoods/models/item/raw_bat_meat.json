@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "immersivefoods:items/raw_bat_meat"
+    "layer0": "immersivefoods:item/raw_bat_meat"
   }
 }

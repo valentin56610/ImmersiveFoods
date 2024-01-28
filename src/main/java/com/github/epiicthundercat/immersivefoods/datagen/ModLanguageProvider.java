@@ -2,15 +2,15 @@ package com.github.epiicthundercat.immersivefoods.datagen;
 
 import com.github.epiicthundercat.immersivefoods.Reference;
 import com.github.epiicthundercat.immersivefoods.setup.Registration;
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.LanguageProvider;
 
 import static com.github.epiicthundercat.immersivefoods.setup.ModSetup.TAB_NAME;
 
 public class ModLanguageProvider extends LanguageProvider {
 
-    public ModLanguageProvider(DataGenerator gen, String locale) {
-        super(gen, Reference.MODID, locale);
+    public ModLanguageProvider(PackOutput packOutput, String locale) {
+        super(packOutput, Reference.MODID, locale);
     }
 
     @Override
@@ -81,6 +81,9 @@ public class ModLanguageProvider extends LanguageProvider {
 //Dolphin
         add(Registration.RAW_DOLPHIN_MEAT.get(), "Raw Dolphin");
         add(Registration.COOKED_DOLPHIN_MEAT.get(), "Cooked Dolphin");
+//Frog
+        add(Registration.RAW_FROG_LEGS.get(), "Frog Leg");
+        add(Registration.COOKED_FROG_LEGS.get(), "Cooked Frog Leg");
 
     }
 }

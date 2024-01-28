@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "immersivefoods:items/filleted_squid_meat"
+    "layer0": "immersivefoods:item/filleted_squid_meat"
   }
 }

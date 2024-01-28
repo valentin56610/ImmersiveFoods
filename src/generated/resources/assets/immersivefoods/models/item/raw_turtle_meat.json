@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "immersivefoods:items/raw_turtle_meat"
+    "layer0": "immersivefoods:item/raw_turtle_meat"
   }
 }

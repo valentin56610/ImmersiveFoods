@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "immersivefoods:items/bat_wing"
+    "layer0": "immersivefoods:item/bat_wing"
   }
 }

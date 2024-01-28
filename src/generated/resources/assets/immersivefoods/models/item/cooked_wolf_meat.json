@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "immersivefoods:items/cooked_wolf_meat"
+    "layer0": "immersivefoods:item/cooked_wolf_meat"
   }
 }

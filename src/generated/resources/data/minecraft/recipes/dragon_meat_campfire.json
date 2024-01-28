@@ -1,5 +1,6 @@
 {
   "type": "minecraft:campfire_cooking",
+  "category": "food",
   "cookingtime": 800,
   "experience": 25.0,
   "group": "immersivefoods",

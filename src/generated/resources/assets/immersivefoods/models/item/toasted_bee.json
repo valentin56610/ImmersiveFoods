@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "immersivefoods:items/toasted_bee"
+    "layer0": "immersivefoods:item/toasted_bee"
   }
 }
