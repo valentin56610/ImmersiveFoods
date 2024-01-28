@@ -1,10 +1,10 @@
 {
+  "type": "immersivefoods:chance_add",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:entities/bat"
     }
   ],
-  "addition": "immersivefoods:bat_wing",
-  "type": "immersivefoods:bat_wing_from_bat"
+  "addition": "immersivefoods:bat_wing"
 }

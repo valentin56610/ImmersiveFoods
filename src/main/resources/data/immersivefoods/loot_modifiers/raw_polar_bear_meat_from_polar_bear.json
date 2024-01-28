@@ -1,10 +1,10 @@
 {
+  "type": "immersivefoods:generic_add",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:entities/polar_bear"
     }
   ],
-  "addition": "immersivefoods:raw_polar_bear_meat",
-  "type": "immersivefoods:raw_polar_bear_meat_from_polar_bear"
+  "addition": "immersivefoods:raw_polar_bear_meat"
 }

@@ -1,10 +1,10 @@
 {
+  "type": "immersivefoods:generic_add",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:entities/turtle"
     }
   ],
-  "addition": "immersivefoods:raw_turtle_meat",
-  "type": "immersivefoods:raw_turtle_meat_from_turtle"
+  "addition": "immersivefoods:raw_turtle_meat"
 }

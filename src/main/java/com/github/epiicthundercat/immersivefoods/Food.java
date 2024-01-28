@@ -1,5 +1,6 @@
 package com.github.epiicthundercat.immersivefoods;
 
+import com.github.epiicthundercat.immersivefoods.loot.IFLootModifiers;
 import com.github.epiicthundercat.immersivefoods.setup.ModConfigSetup;
 import com.github.epiicthundercat.immersivefoods.setup.ModSetup;
 import com.github.epiicthundercat.immersivefoods.setup.Registration;
@@ -16,15 +17,18 @@ public class Food {
 
     public Food() {
 
+        IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
         Registration.init();
         ModSetup.setup();
         ModConfigSetup.register();
 
-        IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
+        IFLootModifiers.register(modbus);
+
         modbus.addListener(ModSetup::init);
 
 
     }
+
 
 
 }

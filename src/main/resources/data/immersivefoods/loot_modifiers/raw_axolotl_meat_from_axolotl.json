@@ -1,10 +1,10 @@
 {
+  "type": "immersivefoods:generic_add",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:entities/axolotl"
     }
   ],
-  "addition": "immersivefoods:raw_axolotl_meat",
-  "type": "immersivefoods:raw_axolotl_meat_from_axolotl"
+  "addition": "immersivefoods:raw_axolotl_meat"
 }

@@ -8,20 +8,11 @@ public class ModConfigSetup {
 
     public static void register() {
         registerServerConfigs();
-      //  registerCommonConfigs();
 
     }
 
 
 
-//    private static void registerCommonConfigs() {
-//
-////        ForgeConfigSpec.Builder COMMON_BUILDER = new ForgeConfigSpec.Builder();
-////        ModLoadingContext.get().registerConfig(net.minecraftforge.fml.config.ModConfig.Type.COMMON, COMMON_BUILDER.build());
-//
-//
-//
-//    }
 
     private static void registerServerConfigs() {
 

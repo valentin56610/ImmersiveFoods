@@ -1,10 +1,10 @@
 {
+  "type": "immersivefoods:generic_add",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:entities/donkey"
     }
   ],
-  "addition": "immersivefoods:raw_donkey_meat",
-  "type": "immersivefoods:raw_donkey_meat_from_donkey"
+  "addition": "immersivefoods:raw_donkey_meat"
 }

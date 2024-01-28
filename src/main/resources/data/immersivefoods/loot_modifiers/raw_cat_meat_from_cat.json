@@ -1,10 +1,10 @@
 {
+  "type": "immersivefoods:generic_add",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:entities/cat"
     }
   ],
-  "addition": "immersivefoods:raw_cat_meat",
-  "type": "immersivefoods:raw_cat_meat_from_cat"
+  "addition": "immersivefoods:raw_cat_meat"
 }

@@ -74,17 +74,6 @@ public class Registration {
     public static final RegistryObject<Item> COOKED_DOLPHIN_MEAT = ITEMS.register("cooked_dolphin_meat", () -> new Item(ITEM_PROPERTIES.food(FoodValues.COOKED_SQUID_FOOD)));
 
 
-    /**
-     * TO ADD:
-     * POLAR BEAR RAW AND COOKED - NEED Texture
-     * AXOLOTL RAW AND COOKED - DONE
-     * GOAT raw and Cooked // PELT? - NEED TEXTURE - DONE
-     * FOX - Drops RAW and Cooked - Need Texture
-     * Bee - Drops Bee - Cookable - DONE
-     * Turtle - Raw and Cooked - DONE
-     * Panda - Raw and Cooked - DONE
-     * Dolphin // Raw and Cooked // Dolphin fin Soup - DONE
-     */
 
 
     public static void init() {
@@ -94,11 +83,6 @@ public class Registration {
 
 
     }
-
-
-    //TAG KEYS ARE CREATED HERE AND THEN CALLED IN THE TAGS
-
-    // public static final TagKey<Item> BUD_ITEM = TagKey.create(Registry.ITEM_REGISTRY, new ResourceLocation(HempFarmer.MODID, "bud"));
 
 
 }

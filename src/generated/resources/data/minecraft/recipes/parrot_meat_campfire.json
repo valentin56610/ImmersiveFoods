@@ -1,10 +1,10 @@
 {
   "type": "minecraft:campfire_cooking",
+  "cookingtime": 800,
+  "experience": 1.0,
   "group": "immersivefoods",
   "ingredient": {
     "item": "immersivefoods:raw_parrot_meat"
   },
-  "result": "immersivefoods:cooked_parrot_meat",
-  "experience": 1.0,
-  "cookingtime": 800
+  "result": "immersivefoods:cooked_parrot_meat"
 }
