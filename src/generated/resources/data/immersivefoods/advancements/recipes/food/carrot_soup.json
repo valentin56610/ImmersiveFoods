@@ -22,8 +22,8 @@
   },
   "requirements": [
     [
-      "carrot_soup",
-      "has_the_recipe"
+      "has_the_recipe",
+      "carrot_soup"
     ]
   ],
   "rewards": {

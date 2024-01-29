@@ -22,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_raw_axolotl",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_raw_axolotl"
     ]
   ],
   "rewards": {

@@ -22,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_polar_bear",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_polar_bear"
     ]
   ],
   "rewards": {

@@ -17,7 +17,7 @@ public class ModSetup {
 
     public static void init(FMLCommonSetupEvent event) {
 
-        FoodMessages.register();
+
 
     }
 
