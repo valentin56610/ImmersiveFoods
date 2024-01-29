@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:bat_wing_campfire"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

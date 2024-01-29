@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:polar_bear_meat_smoke"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

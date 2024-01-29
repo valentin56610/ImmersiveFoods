@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:parrot_meat_campfire"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

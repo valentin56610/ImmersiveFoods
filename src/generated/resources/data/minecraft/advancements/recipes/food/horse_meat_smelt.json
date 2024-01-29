@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:horse_meat_smelt"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

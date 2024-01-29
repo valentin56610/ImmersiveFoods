@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:turtle_meat_campfire"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:llama_meat_smoke"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:sniffer_smelt"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
